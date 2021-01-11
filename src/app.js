@@ -15,7 +15,7 @@ class App{
     constructor(){
         this.server = express();
 
-        mongoose.connect(`mongodb+srv://${process.env.DB_NAME}:${process.env.DB_PASS}@${process.env.DB_HOST}/${process.env.DB_NAME}?retryWrites=true&w=majority`, 
+        mongoose.connect(`${process.env.DATABASE_URL}`, 
         {   useNewUrlParser: true, 
             useUnifiedTopology: true, 
             useCreateIndex: true

@@ -1,0 +1,13 @@
+{
+	"store_name":"Store name",
+	"username":"User name",
+	"email":"email",
+	"whatsapp":"whatsapp number",
+	"store_link":"link to access",
+	"password":"password",
+	"store_bio":"store description",
+	"adress":"store adress",
+	"CEP":"postal code",
+	"profile_picture":"base64",
+	"products":[]
+}
